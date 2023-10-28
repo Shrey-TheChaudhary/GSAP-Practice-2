@@ -1,0 +1,43 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 20px;
+  line-height: 1.4;
+  background:linear-gradient(purple, rgb(156, 35, 212), rgba(153, 21, 124, 0.685));
+  color: #fff;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 32px 24px;
+  width: 80%;
+  height: 100%;
+}
+
+.title {
+  margin: -12px 0 0 0;
+}
+
+.subtitle {
+  text-align: left;
+  margin: 0;
+}
+
+.buttons-wrapper {
+  margin: 32px 0;
+}
+
+.box {
+  width: 120px;
+  height: 120px;
+  background: #f4a460;
+}
